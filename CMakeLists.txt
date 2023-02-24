@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(cppcourse)
+project(cpp_gen_alg)
 
 # try to prevent in-source builds
 if("${PROJECT_SOURCE_DIR}" STREQUAL "${PROJECT_BINARY_DIR}")
