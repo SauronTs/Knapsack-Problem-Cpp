@@ -59,7 +59,7 @@ void mutate(uint16_t &genom) {
     int chance = get_random_number(1, 1000);
 
     // If the genom mutates, get a random bit and flip it.
-    if (chance == 1) {
+    if (chance == 0) {
         int r = get_random_number(0, 9);
         genom ^= (1 << r);
     }
